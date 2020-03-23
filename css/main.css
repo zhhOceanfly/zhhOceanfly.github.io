@@ -1201,7 +1201,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff256f;
+  background: #4bff34;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2046,7 +2046,7 @@ pre .javascript .function {
   height: 24px;
   width: 24px;
   cursor: pointer;
-  background: url("../images/wechat2.svg");
+  background: url("../images/wechat1.png");
   background-size: 24px 24px;
 }
 .weixin-hover {
@@ -2057,7 +2057,7 @@ pre .javascript .function {
   width: 0px;
   border-radius: 3px;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
-  background: url("../images/wechat2.svg");
+  background: url("../images/wechat.jpeg");
   background-color: #fff;
   background-repeat: no-repeat;
   background-size: 150px 150px;
@@ -2083,6 +2083,49 @@ pre .javascript .function {
 }
 .weixin-menu:hover .weixin-description {
   opacity: 1;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+::-webkit-scrollbar-button:start:increment,
+::-webkit-scrollbar-button:end:decrement {
+  display: none;
+}
+::-webkit-scrollbar-corner {
+  display: block;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: rgba(0,0,0,0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 8px;
+  background-color: rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+}
+::-webkit-scrollbar-track:hover {
+  background-color: rgba(0,0,0,0.15);
+}
+::-webkit-scrollbar-button:start {
+  width: 10px;
+  height: 10px;
+/*background: url(../images/scrollbar_arrow.png) no-repeat 0 0;*/
+/*可以添加滚动条样式*/
+}
+#days {
+  display: block;
+  color: #07b39b;
+  font-size: 13px;
+  margin-top: 15px;
 }
 .category-all-page .category-all-title {
   text-align: center;
